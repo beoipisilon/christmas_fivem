@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+.logo{
+  text-align: center;
+}
+.logo a{
+	color:#fff;
+}
+body{
+background-image: url('../img/s1.png'), url('../img/s2.png'), url('../img/s3.png');
+-webkit-animation: snow 10s linear infinite;
+-moz-animation: snow 10s linear infinite;
+-ms-animation: snow 10s linear infinite;
+animation: snow 10s linear infinite;
+
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+.container .container-text{
+    background-color: white;
+    font-family: Poppins;
+    padding: 25px;
+    position: absolute;
+    max-width: 360px;
+    color: white;
+    color: #212121;
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+    transform: translate(-50%,-50%);
+}
+.container .container-text img{
+    max-width: 200px;
+    position: absolute;
+    left: 27%;
+    top: -71%;
+}
+.container .container-text h1{
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+.container .container-text p{
+    font-size: 0.9em;
+}
