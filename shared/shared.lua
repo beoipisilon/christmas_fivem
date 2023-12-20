@@ -190,4 +190,10 @@ Config.LootTables = {
             { name = 'energetico', count = math.random(30,60)},
         }
     },
+    [9] = {
+        Chance = 10,
+        Items = {
+            { name = 'panetone', count = math.random(5,10)},
+        }
+    },
 }
