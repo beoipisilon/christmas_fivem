@@ -191,7 +191,7 @@ Config.LootTables = {
         }
     },
     [9] = {
-        Chance = 10,
+        Chance = 15,
         Items = {
             { name = 'panetone', count = math.random(5,10)},
         }
